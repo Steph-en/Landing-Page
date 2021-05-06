@@ -1,0 +1,102 @@
+:root 
+{
+  --primary-color: #ff970e;
+  --secondary-color: rgb(0, 38, 119);
+}
+
+.gradient
+{
+  background: rgb(0,36,34);
+  background: linear-gradient(90deg, rgba(0,36,34,1) 0%, rgba(59,0,255,0.804359243697479) 100%, rgba(9,9,121,1) 100%);
+}
+
+.gradient-pri
+{
+  background: rgb(35,36,0);
+  background: linear-gradient(90deg, rgba(35,36,0,1) 0%, rgba(255,132,0,0.7063200280112045) 49%, rgba(121,108,9,1) 100%);
+}
+
+body
+{
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar
+{
+  box-shadow: 0 0 8px rgb(146, 115, 115);
+}
+
+.navbar a:hover
+{
+  font-weight: bolder;
+}
+
+.navbar-brand img
+{
+  width: 10%;
+  height: auto;
+}
+
+.hero 
+{
+  text-align: center;
+}
+
+.page-header
+{
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.feature span
+{
+  color: var(--primary-color);
+}
+
+.feature
+{
+  color: var(--secondary-color);
+}
+
+.feature ul
+{
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li
+{
+  padding-left: 2rem;
+  background-image: url(../images/bullet.svg);
+  background-repeat: no-repeat;
+  line-height:1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact 
+{
+  padding-bottom: 10rem;
+  color: var(--secondary-color);
+}
+
+.contact span
+{
+  color: var(--primary-color);
+}
+
+footer
+{
+  color: #fff;
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+footer span
+{
+  color: var(--primary-color);
+}
