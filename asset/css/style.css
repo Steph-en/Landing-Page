@@ -33,6 +33,11 @@ body
   font-weight: bolder;
 }
 
+.navbar-brand
+{
+  width: 28rem;
+}
+
 .navbar-brand img
 {
   width: 10%;
