@@ -129,7 +129,7 @@ footer span
   color: var(--primary-color);
 }
 
-.contact:before 
+/* .contact:before 
 {
   content: '';
   position: absolute;
@@ -149,5 +149,5 @@ footer span
   background: url("../images/logo.png") no-repeat;
   left: 7em;
   top: 109em;
-} 
+}  */
 
