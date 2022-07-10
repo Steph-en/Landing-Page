@@ -25,6 +25,17 @@ body
   color: rgba(0, 64, 255, 0.566);
 }
 
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(63, 67, 70);
+  font-size: 1.4em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
 .navbar
 {
   box-shadow: 0 0 8px rgb(22, 34, 50);
